@@ -4,6 +4,8 @@
 
 A good friend of mine recently began streaming on Twitch this past year. His growth model was supported by giveaways. One problem we discussed was that the same people were entering his giveaways and he wasn't reaching the growth he wanted. This bot tackles that challenge by gamifying inviting friends to his Discord server, ultimately bringing in more engagement.
 
+**Note: This project is still in development.**
+
 ## What It Does
 
 Eureka is designed to manage user referrals within a server, rewarding members for bringing in new members to the community. The suite of commands are explained in the table below. Some of the core functionalities include referral tracking and validation, data management, and admin setup. 
@@ -33,4 +35,5 @@ In my initial development of the bot, I strived for efficiency and accessibility
 ## What's next?
 
 - Migrate to [TinyDB]()
-- Refactor the code so commands are [ephemeral](https://discordpy.readthedocs.io/en/latest/interactions/api.html). 
+- Refactor the code so commands are [ephemeral](https://discordpy.readthedocs.io/en/latest/interactions/api.html).
+- Organize code base into smaller chunks instead of a massive file.
